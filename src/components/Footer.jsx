@@ -13,7 +13,7 @@ const Footer = () => {
           {/* Column 1: Brand & Description */}
           <div className="text-center md:text-left">
             <h3 className="text-xl font-bold text-white mb-4">
-              Dev<span className="text-brand-orange">Portfolio</span>.
+              Victor<span className="text-brand-orange">Chidera</span>.
             </h3>
             <p className="text-slate-400 text-sm leading-relaxed max-w-xs mx-auto md:mx-0">
               Crafting accessible, pixel-perfect, and performant web experiences
