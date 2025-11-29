@@ -3,6 +3,7 @@ import { ExternalLink, Code } from "lucide-react";
 import { motion } from "framer-motion";
 import foodflowImg from "../assets/images/foodflow.png";
 import eventflow from "../assets/images/eventflow.png";
+import healthpoint from "../assets/images/healthpoint.png";
 
 const projects = [
   {
@@ -21,10 +22,20 @@ const projects = [
     title: "EventFlow",
     category: "Full Stack App & Productivity",
     description:
-      "Analytics dashboard for online retailers with real-time data visualization.",
+      "Analytics dashboard for online retailers with real-time data visualization. Track sales, customer behavior, and inventory seamlessly.",
     tech: ["React", "Node.js", "Tailwind"],
     link: "https://eventflow-neon.vercel.app/#/",
     image: eventflow,
+  },
+  {
+    id: 3,
+    title: "HealthPoint",
+    category: "Healthcare & Appointment System",
+    description:
+      "Book appointments with top specialists (cardiology, pediatrics, and more) at Healthpoint Hospital. Easily manage your health records and consultations online.",
+    tech: ["React", "Node.js", "Tailwind", "TypeScript"],
+    link: "https://healthpoint-hospital.vercel.app/#/",
+    image: healthpoint,
   },
 ];
 
