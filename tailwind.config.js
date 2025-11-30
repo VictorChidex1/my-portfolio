@@ -3,6 +3,15 @@ export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
+      animation: {
+        scan: "scan 4s linear infinite",
+      },
+      keyframes: {
+        scan: {
+          "0%": { top: "0%" },
+          "100%": { top: "100%" },
+        },
+      },
       colors: {
         // We are adding your specific FoodFlow colors here
         brand: {

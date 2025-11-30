@@ -9,7 +9,7 @@ const FeaturedProjects = () => {
   const featured = projects.slice(0, 3);
 
   return (
-    <section className="py-32 bg-brand-dark">
+    <section className="pt-60 pb-32 bg-brand-dark">
       <div className="max-w-7xl mx-auto px-6">
         <motion.div
           variants={staggerContainer}
