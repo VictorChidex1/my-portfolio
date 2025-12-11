@@ -30,9 +30,15 @@ const About = () => {
               className="space-y-6 text-lg text-slate-400 leading-relaxed"
             >
               <p>
-                Hello! I'm Victor Chidera, a Frontend Developer with a deep
-                passion for building pixel-perfect, accessible, and performant
-                web experiences.
+                Hello! I'm Victor Chidera, a Full-Stack Product Engineer with a
+                deep passion for building pixel-perfect, accessible, and
+                performant web experiences. I specialize in the React and
+                Firebase ecosystem.
+              </p>
+              <p>
+                Expert in taking applications from concept to production (0 to
+                1), leveraging Serverless architecture to build scalable,
+                secure, and high-performance products and applications.
               </p>
               <p>
                 My journey started with a curiosity for how things work on the
@@ -76,16 +82,37 @@ const About = () => {
                 &nbsp;&nbsp;name:{" "}
                 <span className="text-green-400">'Victor Chidera'</span>,<br />
                 &nbsp;&nbsp;role:{" "}
-                <span className="text-green-400">'Frontend Dev'</span>,<br />
+                <span className="text-green-400">'Fullstack Dev'</span>,<br />
                 &nbsp;&nbsp;skills: [
                 <span className="text-green-400">'React'</span>,{" "}
-                <span className="text-green-400">'Next.js'</span>,{" "}
+                <span className="text-green-400">'Firebase'</span>,{" "}
                 <span className="text-green-400">'Tailwind'</span>],
+                <br />
+                &nbsp;&nbsp;backend: [
+                <span className="text-green-400">'Firebase Auth'</span>,{" "}
+                <span className="text-green-400">'Firestore'</span>,
+                <br />
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <span className="text-green-400">'Security Rules'</span>,{" "}
+                <span className="text-green-400">'Cloud Functions'</span>],
+                <br />
+                &nbsp;&nbsp;tools: [
+                <span className="text-green-400">'Git'</span>,{" "}
+                <span className="text-green-400">'GitHub'</span>,{" "}
+                <span className="text-green-400">'Vercel'</span>,{" "}
+                <span className="text-green-400">'REST API'</span>],
+                <br />
+                &nbsp;&nbsp;competencies: [
+                <span className="text-green-400">'AI Integration'</span>,{" "}
+                <span className="text-green-400">'SaaS Arch'</span>,
+                <br />
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <span className="text-green-400">'API Security'</span>],
                 <br />
                 &nbsp;&nbsp;hardWorker:{" "}
                 <span className="text-brand-orange">true</span>,<br />
                 &nbsp;&nbsp;quickLearner:{" "}
-                <span className="text-brand-orange">true</span>
+                <span className="text-brand-orange">true</span>,
                 <br />
                 {"}"};
               </code>

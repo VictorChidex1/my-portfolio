@@ -4,6 +4,7 @@ import { motion } from "framer-motion";
 import foodflowImg from "../assets/images/foodflow.png";
 import eventflow from "../assets/images/eventflow.png";
 import healthpoint from "../assets/images/healthpoint.png";
+import novluma from "../assets/images/novluma.png";
 
 export const projects = [
   {
@@ -36,6 +37,16 @@ export const projects = [
     tech: ["React", "Node.js", "Tailwind", "TypeScript"],
     link: "https://healthpoint-hospital.vercel.app/#/",
     image: healthpoint,
+  },
+  {
+    id: 4,
+    title: "NovLuma AI",
+    category: "AI & Content Generation",
+    description:
+      "Novluma helps brands publish, analyze, and grow across all channels using predictive AI. Stop guessing, start scaling.",
+    tech: ["React", "Firebase", "Tailwind", "TypeScript"],
+    link: "https://healthpoint-hospital.vercel.app/#/",
+    image: novluma,
   },
 ];
 

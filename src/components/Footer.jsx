@@ -88,7 +88,7 @@ const Footer = () => {
 
         <div className="flex flex-col md:flex-row justify-between items-center pt-8 border-t border-slate-800 text-slate-500 text-sm">
           <p>© {currentYear} Victor Chidera. All rights reserved.</p>
-          <p className="mt-2 md:mt-0">Designed & Built with ❤️</p>
+          <p className="mt-2 md:mt-0">Designed & Built with 🤍</p>
         </div>
       </div>
     </footer>
