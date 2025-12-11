@@ -90,6 +90,14 @@ const Navbar = () => {
                   {link.name}
                 </Link>
               ))}
+              <a
+                href="/victor-chidera-full-stack-cv.pdf"
+                download
+                className="flex items-center gap-2 px-5 py-3 bg-brand-orange/10 border border-brand-orange/50 rounded-full text-brand-orange text-lg font-medium hover:bg-brand-orange hover:text-white transition-all duration-300 w-fit"
+              >
+                <Download size={20} />
+                HIRE ME
+              </a>
             </div>
           </motion.div>
         )}

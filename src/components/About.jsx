@@ -84,7 +84,7 @@ const About = () => {
           </div>
 
           {/* Decorative Visual */}
-          <motion.div variants={fadeInUp} className="relative hidden lg:block">
+          <motion.div variants={fadeInUp} className="relative mt-16 lg:mt-0">
             <div className="absolute inset-0 bg-gradient-to-tr from-brand-orange/20 to-transparent rounded-3xl transform rotate-6 border border-white/5 blur-sm"></div>
             <div className="relative bg-slate-900/50 p-10 rounded-3xl border border-slate-800 backdrop-blur-sm">
               <code className="text-sm md:text-base text-slate-300 font-mono">
