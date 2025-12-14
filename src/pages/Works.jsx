@@ -9,14 +9,13 @@ import novluma from "../assets/images/novluma.png";
 export const projects = [
   {
     id: 1,
-    title: "FoodFlow",
-    category: "Ecommerce & Management System",
+    title: "NovLuma AI",
+    category: "Full Stack AI Content Generation Application",
     description:
-      "A comprehensive food delivery management system optimizing restaurant workflows. Built with the same Dark Blue & Orange theme.",
-    tech: ["React", "Node.js", "Tailwind"],
-    // REPLACE with your real link
-    link: "https://victorchidex1.github.io/food-delivery-app/",
-    image: foodflowImg,
+      "Novluma helps brands publish, analyze, and grow across all channels using predictive AI. Stop guessing, start scaling.",
+    tech: ["React", "Firebase", "Tailwind", "TypeScript"],
+    link: "https://healthpoint-hospital.vercel.app/#/",
+    image: novluma,
   },
   {
     id: 2,
@@ -40,13 +39,14 @@ export const projects = [
   },
   {
     id: 4,
-    title: "NovLuma AI",
-    category: "AI & Content Generation",
+    title: "FoodFlow",
+    category: "Ecommerce & Management System",
     description:
-      "Novluma helps brands publish, analyze, and grow across all channels using predictive AI. Stop guessing, start scaling.",
-    tech: ["React", "Firebase", "Tailwind", "TypeScript"],
-    link: "https://healthpoint-hospital.vercel.app/#/",
-    image: novluma,
+      "A comprehensive food delivery management system optimizing restaurant workflows. Built with the same Dark Blue & Orange theme.",
+    tech: ["React", "Node.js", "Tailwind"],
+    // REPLACE with your real link
+    link: "https://victorchidex1.github.io/food-delivery-app/",
+    image: foodflowImg,
   },
 ];
 
