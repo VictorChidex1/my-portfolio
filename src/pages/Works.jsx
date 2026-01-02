@@ -34,7 +34,7 @@ export const projects = [
     title: "Raploard official Website",
     category: "Artist Portfolio Website for bookings and contact",
     description:
-      "A comprehensive food delivery management system optimizing restaurant workflows. Built with the same Dark Blue & Orange theme.",
+      "A high-performance artist portfolio designed to showcase music, tour dates, and facilitate bookings. Features a sleek, immersive media player and direct contact integration.",
     tech: ["React", "Firebase", "Tailwind", "TypeScript"],
     link: "https://raploard-web.vercel.app/",
     image: raploard,
