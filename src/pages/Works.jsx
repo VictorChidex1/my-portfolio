@@ -6,6 +6,7 @@ import eventflow from "../assets/images/eventflow.webp";
 import healthpoint from "../assets/images/healthpoint.webp";
 import novluma from "../assets/images/novluma.webp";
 import raploard from "../assets/images/raploard.webp";
+import veravox from "../assets/images/veravox.webp";
 
 export const projects = [
   {
@@ -20,6 +21,26 @@ export const projects = [
   },
   {
     id: 2,
+    title: "VeraVox AI",
+    category: "Full Stack AI-powered assistant Application",
+    description:
+      "VeraVox is a serverless Micro-SaaS that automates reputation management for local businesses. It fuses Google Gemini AI with specific brand personas to turn reputation risks into revenue opportunities instantly.",
+    tech: ["React", "Firebase", "Tailwind", "TypeScript"],
+    link: "https://vevavox-ai.vercel.app/",
+    image: veravox,
+  },
+  {
+    id: 3,
+    title: "Raploard official Website",
+    category: "Artist Portfolio Website for bookings and contact",
+    description:
+      "A comprehensive food delivery management system optimizing restaurant workflows. Built with the same Dark Blue & Orange theme.",
+    tech: ["React", "Firebase", "Tailwind", "TypeScript"],
+    link: "https://raploard-web.vercel.app/",
+    image: raploard,
+  },
+  {
+    id: 4,
     title: "EventFlow",
     category: "Full Stack App & Productivity",
     description:
@@ -29,7 +50,7 @@ export const projects = [
     image: eventflow,
   },
   {
-    id: 3,
+    id: 5,
     title: "HealthPoint",
     category: "Healthcare & Appointment System",
     description:
@@ -39,7 +60,7 @@ export const projects = [
     image: healthpoint,
   },
   {
-    id: 4,
+    id: 6,
     title: "FoodFlow",
     category: "Ecommerce & Management System",
     description:
@@ -47,16 +68,6 @@ export const projects = [
     tech: ["React", "Firebase", "Tailwind", "TypeScript"],
     link: "https://food-delivery-app-zeta-beige.vercel.app/#/",
     image: foodflowImg,
-  },
-  {
-    id: 5,
-    title: "Raploard official Website",
-    category: "Artist Portfolio Website for bookings and contact",
-    description:
-      "A comprehensive food delivery management system optimizing restaurant workflows. Built with the same Dark Blue & Orange theme.",
-    tech: ["React", "Firebase", "Tailwind", "TypeScript"],
-    link: "https://raploard-web.vercel.app/",
-    image: raploard,
   },
 ];
 
