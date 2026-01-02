@@ -17,7 +17,7 @@ const testimonials = [
     name: "Emmanuel Olafisoye",
     role: "Afrobeats Superstar (Raploard)",
     content:
-      "Victor built my artist porfolio website with a dashboard application for bookings and contact. Highly recommended.",
+      "Victor built my artist porfolio website with a sleek, immersive media player to showcase music, tour dates, and facilitate bookings. Highly recommended.",
     image: "/emmanuel-olafisoye.webp",
   },
   {
@@ -25,7 +25,7 @@ const testimonials = [
     name: "Dr Ozioma Glory",
     role: "Marketing Director, CreativeFlow",
     content:
-      "I was impressed by Victor's ability to translate our design concepts into pixel-perfect code. He is a true professional.",
+      "I was impressed by Victor's ability to translate our design concepts into pixel-perfect code. He is a true professional indeed.",
     image: "/dr-ozioma.webp",
   },
 ];
