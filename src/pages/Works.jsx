@@ -7,25 +7,44 @@ import healthpoint from "../assets/images/healthpoint.webp";
 import novluma from "../assets/images/novluma.webp";
 import raploard from "../assets/images/raploard.webp";
 import veravox from "../assets/images/veravox.webp";
+import kelvinsGrid from "../assets/images/kelvins-grid.webp";
 
 export const projects = [
   {
     id: 1,
-    title: "NovLuma AI",
-    category: "Full Stack AI Content Generation Application",
+    title: "Novluma AI: Content Orchestration SaaS",
+    category: "Generative AI Platform & B2B SaaS",
     description:
-      "Novluma helps brands publish, analyze, and grow across all channels using predictive AI. Stop guessing, start scaling.",
-    tech: ["React", "Firebase", "Tailwind", "TypeScript"],
-    link: "https://healthpoint-hospital.vercel.app/#/",
+      "A production-ready AI content workspace built with React and Google Gemini. Features a custom credit-based consumption model, real-time content generation streams, and a secure serverless architecture (Firebase) for managing user authentication and data persistence.",
+    tech: [
+      "React",
+      "Firebase (Firestore DB/Auth)",
+      "Tailwind CSS",
+      "TypeScript",
+      "Framer Motion",
+      "Zustand (State)",
+      "Google Gemini API (AI)",
+      "Vercel (Deployment)",
+    ],
+    link: "https://novluma-saas.vercel.app/",
     image: novluma,
   },
   {
     id: 2,
-    title: "VeraVox AI",
-    category: "Full Stack AI-powered assistant Application",
+    title: "VeraVox AI: Automated Reputation Engine",
+    category: "Serverless Micro-SaaS & AI Automation",
     description:
-      "VeraVox is a serverless Micro-SaaS that automates reputation management for local businesses. It fuses Google Gemini AI with specific brand personas to turn reputation risks into revenue opportunities instantly.",
-    tech: ["React", "Firebase", "Tailwind", "TypeScript"],
+      "A production-grade reputation management platform engineered with a serverless architecture. Leverages Google Gemini AI to analyze customer sentiment and generate context-aware, persona-driven responses. Features an automated workflow engine that detects reputation risks and drafts strategic recovery responses in real-time, eliminating manual intervention for local business owners.",
+    tech: [
+      "React",
+      "Firebase (Firestore DB/Auth)",
+      "Tailwind CSS",
+      "TypeScript",
+      "Framer Motion",
+      "Zustand (State)",
+      "Google Gemini API (AI)",
+      "Vercel (Deployment)",
+    ],
     link: "https://vevavox-ai.vercel.app/",
     image: veravox,
   },
@@ -35,37 +54,81 @@ export const projects = [
     category: "Artist Portfolio Website for bookings and contact",
     description:
       "A high-performance artist portfolio designed to showcase music, tour dates, and facilitate bookings. Features a sleek, immersive media player and direct contact integration.",
-    tech: ["React", "Firebase", "Tailwind", "TypeScript"],
+    tech: [
+      "React",
+      "Firebase (Firestore DB/Auth)",
+      "Tailwind CSS",
+      "TypeScript",
+      "Framer Motion",
+      "Zustand (State)",
+      "Vercel (Deployment)",
+    ],
     link: "https://raploard-web.vercel.app/",
     image: raploard,
   },
   {
     id: 4,
+    title: "Kelvin's Grid: Serverless Solar Utility Platform",
+    category: "Renewable Energy CRM & Customer Portal (SaaS)",
+    description:
+      "A production-grade serverless application for a Nigerian energy infrastructure firm. Engineered a ‘God Mode’ admin dashboard for real-time asset tracking and client management using Firebase. Features a high-performance, physics-based UI (Framer Motion) optimized for mobile Safari with 0ms blocking navigation and render-slicing strategies.",
+    tech: [
+      "React",
+      "Firebase (Firestore DB/Auth)",
+      "Tailwind CSS",
+      "TypeScript",
+      "Framer Motion",
+      "Zustand (State)",
+      "Vercel (Deployment)",
+    ],
+    link: "https://kelvins-grid.vercel.app/",
+    image: kelvinsGrid,
+  },
+  {
+    id: 5,
     title: "EventFlow",
     category: "Full Stack App & Productivity",
     description:
       "Analytics dashboard for online retailers with real-time data visualization. Track sales, customer behavior, and inventory seamlessly.",
-    tech: ["React", "Firebase", "Tailwind", "TypeScript"],
+    tech: [
+      "React",
+      "Firebase",
+      "Tailwind",
+      "TypeScript",
+      "Vercel (Deployment)",
+    ],
     link: "https://eventflow-neon.vercel.app/#/",
     image: eventflow,
   },
   {
-    id: 5,
+    id: 6,
     title: "HealthPoint",
     category: "Healthcare & Appointment System",
     description:
       "Book appointments with top specialists (cardiology, pediatrics, and more) at Healthpoint Hospital. Easily manage your health records and consultations online.",
-    tech: ["React", "Firebase", "Tailwind", "TypeScript"],
+    tech: [
+      "React",
+      "Firebase",
+      "Tailwind",
+      "TypeScript",
+      "Vercel (Deployment)",
+    ],
     link: "https://healthpoint-hospital.vercel.app/#/",
     image: healthpoint,
   },
   {
-    id: 6,
+    id: 7,
     title: "FoodFlow",
     category: "Ecommerce & Management System",
     description:
       "A comprehensive food delivery management system optimizing restaurant workflows. Built with the same Dark Blue & Orange theme.",
-    tech: ["React", "Firebase", "Tailwind", "TypeScript"],
+    tech: [
+      "React",
+      "Firebase",
+      "Tailwind",
+      "TypeScript",
+      "Vercel (Deployment)",
+    ],
     link: "https://food-delivery-app-zeta-beige.vercel.app/#/",
     image: foodflowImg,
   },
