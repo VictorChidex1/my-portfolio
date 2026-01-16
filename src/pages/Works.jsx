@@ -8,6 +8,7 @@ import novluma from "../assets/images/novluma.webp";
 import raploard from "../assets/images/raploard.webp";
 import veravox from "../assets/images/veravox.webp";
 import kelvinsGrid from "../assets/images/kelvins-grid.webp";
+import canManHero from "../assets/images/canman-hero.webp";
 
 export const projects = [
   {
@@ -86,6 +87,24 @@ export const projects = [
   },
   {
     id: 5,
+    title: "The CanMan: Operations & Recruitment Platform",
+    category: "Service Business Management System (SaaS)",
+    description:
+      "A scalable web platform built for a premier DFW home service provider. Integrated a high-conversion public recruitment portal with a custom internal 'Mission Control' dashboard. Features automated applicant filtering, real-time booking logistics, and a responsive, brand-aligned UI designed to streamline the hiring and scheduling pipeline.",
+    tech: [
+      "React",
+      "Firebase (Firestore/Functions)",
+      "Tailwind CSS",
+      "TypeScript",
+      "React Hook Form",
+      "Framer Motion",
+      "Vercel",
+    ],
+    link: "https://canmancan.com/careers/",
+    image: canManHero,
+  },
+  {
+    id: 6,
     title: "EventFlow: Event Booking & Management Platform",
     category: "Advanced React Architecture & E-commerce Simulation",
     description:
@@ -104,7 +123,7 @@ export const projects = [
     image: eventflow,
   },
   {
-    id: 6,
+    id: 7,
     title: "HealthPoint: Hospital Management System",
     category: "Advanced Healthcare UI & Workflow Simulation",
     description:
@@ -123,7 +142,7 @@ export const projects = [
     image: healthpoint,
   },
   {
-    id: 7,
+    id: 8,
     title: "FoodFlow: Restaurant Management and Delivery Logistics Platform",
     category: "Advanced Frontend Simulation & Geospatial UI",
     description:
